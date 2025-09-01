@@ -306,7 +306,9 @@ func (pp *PartitionProcessor) Stop() error {
 	runningErrs := multierror.Append(pp.runnerGroup.Wait().ErrorOrNil())
 
 	close(pp.input)
-	close(pp.visitInput)
+	temp := pp.visitInput
+	pp.visitInput = nil
+	close(temp)
 
 	// close all the tables
 	stopErrg, _ := multierr.NewErrGroup(context.Background())
