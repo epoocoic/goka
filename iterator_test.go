@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/storage"
+	"github.com/epoocoic/goka/codec"
+	"github.com/epoocoic/goka/storage"
 	"github.com/stretchr/testify/require"
 	"github.com/syndtr/goleveldb/leveldb"
 )

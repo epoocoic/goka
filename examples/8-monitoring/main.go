@@ -15,14 +15,14 @@ import (
 	"time"
 
 	"github.com/IBM/sarama"
+	"github.com/epoocoic/goka"
+	"github.com/epoocoic/goka/codec"
+	"github.com/epoocoic/goka/multierr"
+	"github.com/epoocoic/goka/web/actions"
+	"github.com/epoocoic/goka/web/index"
+	"github.com/epoocoic/goka/web/monitor"
+	"github.com/epoocoic/goka/web/query"
 	"github.com/gorilla/mux"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/web/actions"
-	"github.com/lovoo/goka/web/index"
-	"github.com/lovoo/goka/web/monitor"
-	"github.com/lovoo/goka/web/query"
 )
 
 var (

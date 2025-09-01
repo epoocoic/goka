@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/IBM/sarama"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/storage"
+	"github.com/epoocoic/goka"
+	"github.com/epoocoic/goka/codec"
+	"github.com/epoocoic/goka/multierr"
+	"github.com/epoocoic/goka/storage"
 	"github.com/stretchr/testify/require"
 )
 

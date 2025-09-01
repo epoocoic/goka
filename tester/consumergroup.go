@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 
 	"github.com/IBM/sarama"
+	"github.com/epoocoic/goka"
+	"github.com/epoocoic/goka/multierr"
 	"github.com/hashicorp/go-multierror"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/multierr"
 )
 
 // consumerGroup mocks the consumergroup

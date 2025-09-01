@@ -106,7 +106,7 @@ That avoids holding the full group table in memory and a long-running recovery o
 
 * `NewProcessor()` takes a slice of Kafka broker addresses and the processor group definition.
 
-For more information on configuring a processor using `DefineGroup`, see the [GoDoc](https://godoc.org/github.com/lovoo/goka#DefineGroup).
+For more information on configuring a processor using `DefineGroup`, see the [GoDoc](https://godoc.org/github.com/epoocoic/goka#DefineGroup).
 
 
 ### View and Emitter
@@ -197,5 +197,5 @@ That's why there is no need to create any locks as long as all modifications are
 Everything else needs to be protected by locks as usual.
 
 
-[GoDoc]: https://godoc.org/github.com/lovoo/goka
-[examples]: https://github.com/lovoo/goka/tree/master/examples
+[GoDoc]: https://godoc.org/github.com/epoocoic/goka
+[examples]: https://github.com/epoocoic/goka/tree/master/examples

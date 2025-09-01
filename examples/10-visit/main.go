@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/multierr"
+	"github.com/epoocoic/goka"
+	"github.com/epoocoic/goka/codec"
+	"github.com/epoocoic/goka/multierr"
 )
 
 var (

@@ -2,9 +2,9 @@ package translator
 
 import (
 	"context"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/examples/3-messaging/topicinit"
+	"github.com/epoocoic/goka"
+	"github.com/epoocoic/goka/codec"
+	"github.com/epoocoic/goka/examples/3-messaging/topicinit"
 )
 
 var (

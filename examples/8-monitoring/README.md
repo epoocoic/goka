@@ -73,7 +73,7 @@ Voila!
 
 ## Example
 
-The example in [main.go](https://github.com/lovoo/goka/blob/master/examples/8-monitoring/main.go) demonstrates the concepts and typical applications of the web interface by
+The example in [main.go](https://github.com/epoocoic/goka/blob/master/examples/8-monitoring/main.go) demonstrates the concepts and typical applications of the web interface by
 creating an Emitter, multiple Processors and a web interface.
 
 Be sure to have Apache Kafka and Zookeeper running by starting it in the examples-folder.

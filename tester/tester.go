@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/storage"
+	"github.com/epoocoic/goka"
+	"github.com/epoocoic/goka/storage"
 
 	"github.com/IBM/sarama"
 )
